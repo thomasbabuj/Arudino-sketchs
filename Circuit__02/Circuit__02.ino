@@ -24,7 +24,7 @@ void setup() {
 void loop() {
   int sensorValue;
   
-  sensorValue = analogRead(sensorValue);
+  sensorValue = analogRead(sensorPin);
   
   Serial.print("Sesnor = ");
   Serial.print(sensorValue);
